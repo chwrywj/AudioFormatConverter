@@ -106,7 +106,7 @@
                             </el-table-column>
                             <el-table-column prop="newFormat" :label="lang('newFormat')" min-width="120px" show-overflow-tooltip fixed="right">
                                 <template slot-scope="scope">
-                                    <el-select class="content" v-model="scope.row.newFormat" :disabled="convertIng" :placeholder="lang('selectTip')">
+                                    <el-select class="content" v-model="scope.row.newFormat" :disabled="convertIng" :placeholder="lang('selectTip')" size="mini">
                                         <el-option v-for="item in audioExtArr" :key="item" :label="item" :value="item"></el-option>
                                     </el-select>
                                 </template>

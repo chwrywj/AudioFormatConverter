@@ -234,20 +234,32 @@ new Vue({
             }
         },
 
+        killFfmpegCommand(){
+            electronAPI.killFfmpegCommand();
+            this.convertIng=false;
+            var filterData = this.fileData.filter(item => {
+                return item.status == 1
+            });
+            for(var i=0;i<filterData.length;i++){
+                filterData[i].status=0;
+                filterData[i].convertPercent=0;
+            }
+
+            setTimeout(() => {
+                for(var i=0;i<filterData.length;i++){
+                    if(!this.isNullOrEmpty(filterData[i].newTmpPath)){
+                        electronAPI.removeFile(filterData[i].newTmpPath);
+                        filterData[i].newTmpPath=null;
+                    }
+                }
+            }, 1000);
+        },
+
         goConvert(){
             if(this.fileConvertPercent==100)
                 return;
             if(this.convertIng){
-                this.convertIng=false;
-
-                //At present, canceling the task is not true, and no implementation method for terminating the ffmpeg command has been found
-                var filterData = this.fileData.filter(item => {
-                    return item.status == 1
-                });
-                for(var i=0;i<filterData.length;i++){
-                    filterData[i].status=0;
-                    filterData[i].convertPercent=0;
-                }
+                this.killFfmpegCommand();
                 return;
             }
 
@@ -298,17 +310,13 @@ new Vue({
                     this.fileData[j].status=1;
                     this.fileData[j].newTmpPath=outputPath;
 
-                    electronAPI.execFfmpeg(this.fileData[j].sourcePath, outputPath, {vn:this.videoExtArr.includes(sourceFormat)},(progress,output)=>{
-                        if(this.fileData[j].newTmpPath!=output)return;
+                    electronAPI.execFfmpeg(this.fileData[j].sourcePath, outputPath, {vn:this.videoExtArr.includes(sourceFormat)},(progress)=>{
                         if(!this.isNullOrEmpty(progress.percent) && !isNaN(progress.percent))
                             this.fileData[j].convertPercent=progress.percent.toFixed(1);
                     },(output)=>{
-                        if(!this.convertIng || this.fileData[j].newTmpPath!=output){
-                            electronAPI.removeFile(output);
-                            return
-                        };
                         this.fileData[j].status=2;
                         this.fileData[j].newPath=outputPath;
+                        this.fileData[j].newTmpPath=null;
                         this.convertStart();
                         this.convertOver();
                         electronAPI.getVideoOrAudioMetaData(outputPath,(metaData)=>{
@@ -316,11 +324,11 @@ new Vue({
                             this.fileData[j].newBitRate=metaData.format.bit_rate;
                             //console.log(metaData)
                         });
-                    },(output)=>{
-                        electronAPI.removeFile(output);
-                        if(!this.convertIng){
-                            return
-                        };
+                    },()=>{
+                        if(!this.compressIng)
+                            return;
+                        electronAPI.removeFile(this.fileData[j].newTmpPath);
+                        this.fileData[j].newTmpPath=null;
                         this.fileData[j].status=3;
                         this.convertStart();
                         this.convertOver();
