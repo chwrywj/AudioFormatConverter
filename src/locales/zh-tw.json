@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "數字世界：音訊格式轉換",
+
+    "audioCut": "音訊剪切",
+    "audioMerge": "音訊合併",
+    "audioCompress": "音訊壓縮",
+    "audioFormatConversion": "音訊格式轉換",
+    "videoToAudio": "視頻轉音訊",
+    "language": "語言",
+    "support": "技術支援",
+    "donata": "捐贈",
+
+    "addFileTip": "支持格式：",
+    "addAudioBtn": "添加音訊",
+    "addDirBtn": "添加資料夾",
+    "addDirTip": "會找出選中的資料夾及子資料夾裡面的所有音訊檔案",
+    "clearFile": "清空",
+
+    "sourcePath": "原路徑",
+    "sourceSize": "原大小",
+    "sourceBitRate": "原位元速率",
+    "newPath": "新路徑",
+    "newSize": "新大小",
+    "newBitRate": "新位元速率",
+    "status": "狀態",
+
+    "audioTip1": "值越大音訊質量就越好，但體積也越大",
+    "taskThreadsNumber": "任務線程數",
+    "taskThreadsNumberTip": "任務線程數越大消耗CUP和記憶體越多，普通電腦建議選擇1-3",
+    "audioBitrate": "音訊位元速率",
+    "useSourceBitrate": "使用源位元速率",
+    "customBitrate": "自定義位元速率",
+    "customMaxBitrate": "自定義最大位元速率",
+    "customBitrateTip1": "不設定時會使用源位元速率。",
+    "customBitrateTip2": "若音訊原有位元速率小於設定的位元速率時會使用音訊原有位元速率",
+    "audioSampleRate": "音訊取樣速率",
+    "useSourceSampleRate": "使用源取樣速率",
+    "audioChannel": "音訊聲道",
+    "useSourceChannel": "使用源聲道",
+    "mono": "1聲道單聲道",
+    "stereo": "2聲道身歷聲",
+    "mustBeInt": "必須是整數",
+    "outDir": "音訊輸出目錄",
+    "selectOutputDirTip": "請選擇輸出目錄",
+    "selectTip": "請選擇",
+
+    "tip": "提示",
+    "ok": "確定",
+    "cancel": "取消",
+    "systemError": "程式出現錯誤"
+  },
+
+  "audioFormatConvert": {
+    "tip": "批量轉換音訊格式",
+    "addFileTip": "還可以從以下視頻格式中選取音樂：",
+
+    "sourceFormat": "原格式",
+    "newFormat": "目標格式",
+
+    "convertSetting": "轉換設定",
+    "batchSetNewFormat": "批量設定目標格式",
+    "convertStart": "開始轉換",
+    "convertStop": "停止轉換",
+    "newFormatNoSettingTip": "請給所有音訊設定目標格式",
+
+    "unConvert": "待轉換",
+    "convertIng": "轉換中",
+    "convertSuccess": "成功",
+    "convertFail": "失敗",
+    "convertOver": "轉換完成"
+  }
+}

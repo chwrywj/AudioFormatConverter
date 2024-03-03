@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Monde numérique: conversion de format audio",
+
+    "audioCut": "Découpage audio",
+    "audioMerge": "Fusion audio",
+    "audioCompress": "Compression audio",
+    "audioFormatConversion": "Conversion de format audio",
+    "videoToAudio": "Vidéo vers audio",
+    "language": "Langue",
+    "support": "Soutien technique",
+    "donata": "Donation",
+
+    "addFileTip": "Formats supportés:",
+    "addAudioBtn": "Ajouter audio",
+    "addDirBtn": "Ajouter un dossier",
+    "addDirTip": "Découvrez tous les fichiers audio dans les dossiers et sous - dossiers sélectionnés",
+    "clearFile": "Vider",
+
+    "sourcePath": "Le chemin original",
+    "sourceSize": "Taille originale",
+    "sourceBitRate": "Débit brut",
+    "newPath": "La nouvelle voie",
+    "newSize": "Nouvelle taille",
+    "newBitRate": "Nouveau bitrate",
+    "status": "Statut",
+
+    "audioTip1": "Plus la valeur est grande, meilleure est la qualité audio, mais aussi plus le volume",
+    "taskThreadsNumber": "Nombre de Threads de tâche",
+    "taskThreadsNumberTip": "Plus le nombre de Threads de tâche consomme de Cup et de mémoire, plus un ordinateur normal recommande de choisir 1 - 3",
+    "audioBitrate": "Débit binaire audio",
+    "useSourceBitrate": "Utiliser le débit source",
+    "customBitrate": "Bitrate personnalisé",
+    "customMaxBitrate": "Personnaliser le débit maximal",
+    "customBitrateTip1": "Le débit source est utilisé lorsqu'il n'est pas défini.",
+    "customBitrateTip2": "Si le débit audio d'origine est inférieur au débit défini, le débit audio d'origine est utilisé",
+    "audioSampleRate": "Taux d'échantillonnage audio",
+    "useSourceSampleRate": "Utilisation du taux d'échantillonnage source",
+    "audioChannel": "Canal audio",
+    "useSourceChannel": "Utiliser le canal source",
+    "mono": "1 canal mono",
+    "stereo": "Stéréo 2 canaux",
+    "mustBeInt": "Doit être un nombre entier",
+    "outDir": "Catalogue de sortie audio",
+    "selectOutputDirTip": "Veuillez sélectionner un répertoire de sortie",
+    "selectTip": "Veuillez sélectionner",
+
+    "tip": "Conseils",
+    "ok": "Déterminer",
+    "cancel": "Annulation",
+    "systemError": "Erreur dans le programme"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Convertir des formats audio par lots",
+    "addFileTip": "Il est également possible d'extraire de la musique des formats vidéo suivants:",
+
+    "sourceFormat": "Format original",
+    "newFormat": "Format cible",
+
+    "convertSetting": "Paramètres de conversion",
+    "batchSetNewFormat": "Définir le format cible par lot",
+    "convertStart": "Commencer la conversion",
+    "convertStop": "Arrêter la conversion",
+    "newFormatNoSettingTip": "Veuillez définir le format cible pour tous les audios",
+
+    "unConvert": "À CONVERTIR",
+    "convertIng": "Dans la conversion",
+    "convertSuccess": "Succès",
+    "convertFail": "L'échec",
+    "convertOver": "Conversion terminée"
+  }
+}

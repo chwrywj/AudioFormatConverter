@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Digitaalne maailm: audioformaadi teisendamine",
+
+    "audioCut": "Helilõiked",
+    "audioMerge": "Heliühendamine",
+    "audioCompress": "Heli tihendamine",
+    "audioFormatConversion": "Helivormingu teisendamine",
+    "videoToAudio": "Video heliks",
+    "language": "keel",
+    "support": "tehniline tugi",
+    "donata": "annetus",
+
+    "addFileTip": "Toetatud vormingud:",
+    "addAudioBtn": "Lisa heli",
+    "addDirBtn": "lisa kataloogid",
+    "addDirTip": "Otsib valitud kataloogist ja alamkataloogist kõik helifailid",
+    "clearFile": "tühi",
+
+    "sourcePath": "Algne asukoht",
+    "sourceSize": "Algne suurus",
+    "sourceBitRate": "Algne bitikiirus",
+    "newPath": "Uus asukoht",
+    "newSize": "Uus suurus",
+    "newBitRate": "Uus bitikiirus",
+    "status": "olek",
+
+    "audioTip1": "Mida suurem on väärtus, seda parem on helikvaliteet, kuid seda suurem on helitugevus.",
+    "taskThreadsNumber": "Ülesandelõimede arv",
+    "taskThreadsNumberTip": "Mida suurem on ülesannete lõimede arv, seda rohkem CUP ja mälu see tarbib. Tavaliste arvutite puhul on soovitatav valida 1- 3",
+    "audioBitrate": "Heli bitikiirus",
+    "useSourceBitrate": "Algbitikiiruse kasutamine",
+    "customBitrate": "Kohandatud bitikiirus",
+    "customMaxBitrate": "Kohandatud maksimaalne bitikiirus",
+    "customBitrateTip1": "Kui pole määratud, kasutatakse lähtebitikiirust.",
+    "customBitrateTip2": "Kui originaalne heli bitikiirus on väiksem kui määratud bitikiirus, kasutatakse originaalset heli bitikiirust",
+    "audioSampleRate": "Heli proovivõtu kiirus",
+    "useSourceSampleRate": "Lähteallika proovivõtu kiiruse kasutamine",
+    "audioChannel": "Helikanal",
+    "useSourceChannel": "Lähtekanali kasutamine",
+    "mono": "1 kanaliga mono",
+    "stereo": "2 kanaliga stereo",
+    "mustBeInt": "Peab olema täisarv",
+    "outDir": "Heliväljundi kataloog",
+    "selectOutputDirTip": "Palun vali väljundkataloog",
+    "selectTip": "Palun vali",
+
+    "tip": "viip",
+    "ok": "kinnita",
+    "cancel": "tühista",
+    "systemError": "Programmi viga"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Partii teisendamine audio vormingus",
+    "addFileTip": "Samuti saate muusikat ekstraheerida järgmistest videovormingutest:",
+
+    "sourceFormat": "Algne vorming",
+    "newFormat": "Sihtmärgi vorming",
+
+    "convertSetting": "Teisendamise seadistused",
+    "batchSetNewFormat": "Partii sihtvorming",
+    "convertStart": "Alusta teisendamist",
+    "convertStop": "Peata teisendamine",
+    "newFormatNoSettingTip": "Palun määra kogu heli sihtvorming",
+
+    "unConvert": "Muudetakse",
+    "convertIng": "Teisendamine",
+    "convertSuccess": "edu",
+    "convertFail": "ebaõnnestub",
+    "convertOver": "konverteerimise lõpetamine"
+  }
+}

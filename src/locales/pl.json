@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Świat cyfrowy: Konwersja formatów audio",
+
+    "audioCut": "Przycinanie dźwięku",
+    "audioMerge": "Łączenie dźwięku",
+    "audioCompress": "Kompresja dźwięku",
+    "audioFormatConversion": "Konwersja formatu audio",
+    "videoToAudio": "Wideo na dźwięk",
+    "language": "język",
+    "support": "wsparcie techniczne",
+    "donata": "darowizna",
+
+    "addFileTip": "Obsługiwane formaty:",
+    "addAudioBtn": "Dodaj dźwięk",
+    "addDirBtn": "dodaj foldery",
+    "addDirTip": "Znajdzie wszystkie pliki audio w wybranym folderze i podfolderze",
+    "clearFile": "pusty",
+
+    "sourcePath": "Oryginalna ścieżka",
+    "sourceSize": "Oryginalny rozmiar",
+    "sourceBitRate": "Oryginalna szybkość bitowa",
+    "newPath": "Nowa ścieżka",
+    "newSize": "Nowy rozmiar",
+    "newBitRate": "Nowa szybkość transmisji",
+    "status": "stan",
+
+    "audioTip1": "Im wyższa wartość, tym lepsza jakość dźwięku, ale także większa głośność",
+    "taskThreadsNumber": "Liczba wątków zadań",
+    "taskThreadsNumberTip": "Im większa liczba wątków zadań, tym więcej CUP i pamięci zużywa. Zaleca się wybór 1-3 dla zwykłych komputerów",
+    "audioBitrate": "Szybkość transmisji audio",
+    "useSourceBitrate": "Użyj źródłowej szybkości bitu",
+    "customBitrate": "Niestandardowa szybkość bitowa",
+    "customMaxBitrate": "Niestandardowa maksymalna szybkość transmisji",
+    "customBitrateTip1": "Gdy nie jest ustawiona, będzie używana szybkość bitowa źródła.",
+    "customBitrateTip2": "Jeśli oryginalna szybkość bitowa dźwięku jest mniejsza niż ustawiona szybkość bitowa, zostanie użyta oryginalna szybkość bitowa dźwięku",
+    "audioSampleRate": "Szybkość próbkowania dźwięku",
+    "useSourceSampleRate": "Użyj szybkości pobierania próbek źródłowych",
+    "audioChannel": "Kanał audio",
+    "useSourceChannel": "Korzystanie z kanału źródłowego",
+    "mono": "1-kanałowy mono",
+    "stereo": "2-kanałowe stereo",
+    "mustBeInt": "Musi być liczbą całkowitą",
+    "outDir": "Katalog wyjściowy audio",
+    "selectOutputDirTip": "Proszę wybrać katalog wyjściowy",
+    "selectTip": "Proszę wybrać",
+
+    "tip": "promocja",
+    "ok": "potwierdź",
+    "cancel": "anuluj",
+    "systemError": "Błąd programu"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Konwersja dźwięku wsadowa",
+    "addFileTip": "Możesz również wyodrębnić muzykę z następujących formatów wideo:",
+
+    "sourceFormat": "Format oryginalny",
+    "newFormat": "Format docelowy",
+
+    "convertSetting": "Ustawienia konwersji",
+    "batchSetNewFormat": "Ustaw format docelowy partii",
+    "convertStart": "Rozpocznij konwersję",
+    "convertStop": "Zatrzymaj konwersję",
+    "newFormatNoSettingTip": "Proszę ustawić format docelowy dla wszystkich dźwięków",
+
+    "unConvert": "Do przekształcenia",
+    "convertIng": "Konwersja",
+    "convertSuccess": "sukces",
+    "convertFail": "niepowodzenie",
+    "convertOver": "zakończenie konwersji"
+  }
+}

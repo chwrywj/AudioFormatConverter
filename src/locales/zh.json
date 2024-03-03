@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "数字世界: 音频格式转换",
+
+    "audioCut": "音频剪切",
+    "audioMerge": "音频合并",
+    "audioCompress": "音频压缩",
+    "audioFormatConversion": "音频格式转换",
+    "videoToAudio": "视频转音频",
+    "language": "语言",
+    "support": "技术支持",
+    "donata": "捐赠",
+
+    "addFileTip": "支持格式：",
+    "addAudioBtn": "添加音频",
+    "addDirBtn": "添加文件夹",
+    "addDirTip": "会找出选中的文件夹及子文件夹里面的所有音频文件",
+    "clearFile": "清空",
+
+    "sourcePath": "原路径",
+    "sourceSize": "原大小",
+    "sourceBitRate": "原比特率",
+    "newPath": "新路径",
+    "newSize": "新大小",
+    "newBitRate": "新比特率",
+    "status": "状态",
+
+    "audioTip1": "值越大音频质量就越好，但体积也越大",
+    "taskThreadsNumber": "任务线程数",
+    "taskThreadsNumberTip": "任务线程数越大消耗CUP和内存越多，普通电脑建议选择1-3",
+    "audioBitrate": "音频比特率",
+    "useSourceBitrate": "使用源比特率",
+    "customBitrate": "自定义比特率",
+    "customMaxBitrate": "自定义最大比特率",
+    "customBitrateTip1": "不设置时会使用源比特率。",
+    "customBitrateTip2": "若音频原有比特率小于设置的比特率时会使用音频原有比特率",
+    "audioSampleRate": "音频采样率",
+    "useSourceSampleRate": "使用源采样率",
+    "audioChannel": "音频声道",
+    "useSourceChannel": "使用源声道",
+    "mono": "1声道单声道",
+    "stereo": "2声道立体声",
+    "mustBeInt": "必须是整数",
+    "outDir": "音频输出目录",
+    "selectOutputDirTip": "请选择输出目录",
+    "selectTip": "请选择",
+
+    "tip": "提示",
+    "ok": "确定",
+    "cancel": "取消",
+    "systemError": "程序出现错误"
+  },
+
+  "audioFormatConvert": {
+    "tip": "批量转换音频格式",
+    "addFileTip": "还可以从以下视频格式中提取音乐：",
+
+    "sourceFormat": "原格式",
+    "newFormat": "目标格式",
+
+    "convertSetting": "转换设置",
+    "batchSetNewFormat": "批量设置目标格式",
+    "convertStart": "开始转换",
+    "convertStop": "停止转换",
+    "newFormatNoSettingTip": "请给所有音频设置目标格式",
+
+    "unConvert": "待转换",
+    "convertIng": "转换中",
+    "convertSuccess": "成功",
+    "convertFail": "失败",
+    "convertOver": "转换完成"
+  }
+}

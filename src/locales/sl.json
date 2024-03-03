@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Digitalni svet: pretvorba zvočnega formata",
+
+    "audioCut": "Izrezovanje zvoka",
+    "audioMerge": "Združitev zvoka",
+    "audioCompress": "Stiskanje zvoka",
+    "audioFormatConversion": "Pretvorba zapisa zvoka",
+    "videoToAudio": "Video v zvok",
+    "language": "jezik",
+    "support": "tehnična podpora",
+    "donata": "donacija",
+
+    "addFileTip": "Podprte oblike:",
+    "addAudioBtn": "Dodaj zvok",
+    "addDirBtn": "dodaj mape",
+    "addDirTip": "Našel bo vse zvočne datoteke v izbrani mapi in podmapah",
+    "clearFile": "prazen",
+
+    "sourcePath": "Prvotna pot",
+    "sourceSize": "Prvotna velikost",
+    "sourceBitRate": "Originalna bitna hitrost",
+    "newPath": "Nova pot",
+    "newSize": "Nova velikost",
+    "newBitRate": "Nova bitna hitrost",
+    "status": "stanje",
+
+    "audioTip1": "Višja kot je vrednost, boljša je kakovost zvoka, vendar tudi večja je glasnost",
+    "taskThreadsNumber": "Število niti opravil",
+    "taskThreadsNumberTip": "Večje kot je število niti opravil, več CUP in pomnilnika porabi. Priporočljivo je, da izberete 1- 3 za navadne računalnike.",
+    "audioBitrate": "Bitna hitrost zvoka",
+    "useSourceBitrate": "Uporabi izvorno bitno hitrost",
+    "customBitrate": "Bitna hitrost po meri",
+    "customMaxBitrate": "Največja bitna hitrost po meri",
+    "customBitrateTip1": "Če ni nastavljeno, bo uporabljena izvorna bitna hitrost.",
+    "customBitrateTip2": "Če je originalna bitna hitrost zvoka manjša od nastavljene bitne hitrosti, bo uporabljena originalna bitna hitrost zvoka",
+    "audioSampleRate": "Hitrost vzorčenja zvoka",
+    "useSourceSampleRate": "Uporabi stopnjo vzorčenja vira",
+    "audioChannel": "Zvočni kanal",
+    "useSourceChannel": "Uporaba izvornega kanala",
+    "mono": "1-kanalni mono",
+    "stereo": "2-kanalni stereo",
+    "mustBeInt": "Mora biti celo število",
+    "outDir": "Zvočni izhodni imenik",
+    "selectOutputDirTip": "Prosim izberite izhodni imenik",
+    "selectTip": "Prosim izberite",
+
+    "tip": "poziv",
+    "ok": "potrdi",
+    "cancel": "prekliči",
+    "systemError": "Napaka v programu"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Serijsko pretvorbo oblike zvoka",
+    "addFileTip": "Glasbo lahko izvlečete tudi iz naslednjih oblik videoposnetkov:",
+
+    "sourceFormat": "Prvotna oblika",
+    "newFormat": "Oblika cilja",
+
+    "convertSetting": "Nastavitve pretvorbe",
+    "batchSetNewFormat": "Nastavi ciljno obliko serije",
+    "convertStart": "Začni pretvorbo",
+    "convertStop": "Ustavi pretvorbo",
+    "newFormatNoSettingTip": "Nastavite ciljno obliko za vse zvoke",
+
+    "unConvert": "Za pretvorbo",
+    "convertIng": "Pretvorba",
+    "convertSuccess": "uspeh",
+    "convertFail": "neuspeh",
+    "convertOver": "končanje pretvorbe"
+  }
+}

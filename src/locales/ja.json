@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "デジタルワールド：オーディオフォーマット変換",
+
+    "audioCut": "オーディオクリップ",
+    "audioMerge": "オーディオマージ",
+    "audioCompress": "オーディオ圧縮",
+    "audioFormatConversion": "オーディオフォーマット変換",
+    "videoToAudio": "ビデオ音声変換",
+    "language": "言語",
+    "support": "テクニカルサポート",
+    "donata": "寄付する",
+
+    "addFileTip": "サポート形式：",
+    "addAudioBtn": "オーディオの追加",
+    "addDirBtn": "フォルダを追加",
+    "addDirTip": "選択したフォルダとサブフォルダ内のすべてのオーディオファイルが見つかります",
+    "clearFile": "クリアランス",
+
+    "sourcePath": "元のパス",
+    "sourceSize": "元のサイズ",
+    "sourceBitRate": "いちじビットりつ",
+    "newPath": "新しいパス",
+    "newSize": "新しいサイズ",
+    "newBitRate": "新規ビットレート",
+    "status": "ステータス",
+
+    "audioTip1": "値が大きいほどオーディオ品質は良くなりますが、ボリュームも大きくなります",
+    "taskThreadsNumber": "タスクスレッド数",
+    "taskThreadsNumberTip": "タスクスレッド数が大きいほどCUPとメモリが消費されるため、一般的なコンピュータでは1～3を選択することを推奨しています",
+    "audioBitrate": "オーディオビットレート",
+    "useSourceBitrate": "ソースビットレートの使用",
+    "customBitrate": "カスタムビットレート",
+    "customMaxBitrate": "カスタム最大ビットレート",
+    "customBitrateTip1": "設定しない場合はソースビットレートが使用されます。",
+    "customBitrateTip2": "オーディオの元のビットレートが設定されたビットレートよりも小さい場合は、オーディオの元のビットレートが使用されます",
+    "audioSampleRate": "オーディオサンプリングレート",
+    "useSourceSampleRate": "ソースサンプリングレートの使用",
+    "audioChannel": "オーディオチャネル",
+    "useSourceChannel": "ソースチャネルの使用",
+    "mono": "1チャネルモノラル",
+    "stereo": "2チャネルステレオ",
+    "mustBeInt": "整数でなければなりません",
+    "outDir": "オーディオ出力ディレクトリ",
+    "selectOutputDirTip": "出力ディレクトリを選択してください",
+    "selectTip": "選択してください",
+
+    "tip": "ヒント",
+    "ok": "を選択して、",
+    "cancel": "キャンセル",
+    "systemError": "プログラムエラー"
+  },
+
+  "audioFormatConvert": {
+    "tip": "一括変換オーディオフォーマット",
+    "addFileTip": "次のビデオフォーマットから音楽を抽出することもできます。",
+
+    "sourceFormat": "オリジナルフォーマット",
+    "newFormat": "ターゲットフォーマット",
+
+    "convertSetting": "変換設定",
+    "batchSetNewFormat": "一括ターゲットフォーマット",
+    "convertStart": "変換を開始",
+    "convertStop": "変換を停止",
+    "newFormatNoSettingTip": "すべてのオーディオにターゲットフォーマットを設定してください",
+
+    "unConvert": "変換対象",
+    "convertIng": "変換中",
+    "convertSuccess": "成功",
+    "convertFail": "に失敗",
+    "convertOver": "変換完了"
+  }
+}

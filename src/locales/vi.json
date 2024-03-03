@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Thế giới kỹ thuật số: Chuyển đổi định dạng âm thanh",
+
+    "audioCut": "Cắt âm thanh",
+    "audioMerge": "Hợp nhất âm thanh",
+    "audioCompress": "Nén âm thanh",
+    "audioFormatConversion": "Chuyển đổi định dạng âm thanh",
+    "videoToAudio": "Video đến âm thanh",
+    "language": "Ngôn ngữ",
+    "support": "Hỗ trợ kỹ thuật",
+    "donata": "Đóng góp",
+
+    "addFileTip": "Định dạng hỗ trợ:",
+    "addAudioBtn": "Thêm âm thanh",
+    "addDirBtn": "Thêm thư mục",
+    "addDirTip": "Tìm tất cả các tập tin âm thanh bên trong thư mục đã chọn và thư mục con",
+    "clearFile": "Trống rỗng",
+
+    "sourcePath": "Đường dẫn gốc",
+    "sourceSize": "Kích thước gốc",
+    "sourceBitRate": "Tốc độ bit thô",
+    "newPath": "Đường dẫn mới",
+    "newSize": "Cỡ mới",
+    "newBitRate": "Tốc độ bit mới",
+    "status": "Trạng thái",
+
+    "audioTip1": "Giá trị âm thanh càng lớn thì chất lượng âm thanh càng tốt, nhưng khối lượng âm thanh càng lớn.",
+    "taskThreadsNumber": "Số lượng task thread",
+    "taskThreadsNumberTip": "Số lượng chủ đề tác vụ càng lớn tiêu hao CUP và bộ nhớ càng nhiều, máy tính thông thường đề nghị chọn 1 - 3",
+    "audioBitrate": "Tốc độ bit âm thanh",
+    "useSourceBitrate": "Sử dụng Source Bitrate",
+    "customBitrate": "Tốc độ bit tùy chỉnh",
+    "customMaxBitrate": "Tốc độ bit tối đa tùy chỉnh",
+    "customBitrateTip1": "Tốc độ bit nguồn được sử dụng khi không thiết lập.",
+    "customBitrateTip2": "Nếu tốc độ bit ban đầu của âm thanh nhỏ hơn tốc độ bit đã đặt, tốc độ bit ban đầu của âm thanh sẽ được sử dụng",
+    "audioSampleRate": "Tỷ lệ lấy mẫu âm thanh",
+    "useSourceSampleRate": "Sử dụng Source Sampling Rate",
+    "audioChannel": "Kênh âm thanh",
+    "useSourceChannel": "Sử dụng Source Channel",
+    "mono": "1 kênh Mono",
+    "stereo": "2 kênh stereo",
+    "mustBeInt": "Phải là số nguyên",
+    "outDir": "Thư mục đầu ra âm thanh",
+    "selectOutputDirTip": "Vui lòng chọn thư mục xuất",
+    "selectTip": "Vui lòng chọn",
+
+    "tip": "Mẹo",
+    "ok": "Xác định",
+    "cancel": "Hủy bỏ",
+    "systemError": "Chương trình bị lỗi"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Chuyển đổi hàng loạt định dạng âm thanh",
+    "addFileTip": "Bạn cũng có thể trích xuất nhạc từ các định dạng video sau:",
+
+    "sourceFormat": "Định dạng gốc",
+    "newFormat": "Định dạng đích",
+
+    "convertSetting": "Thiết lập chuyển đổi",
+    "batchSetNewFormat": "Định dạng đích hàng loạt",
+    "convertStart": "Bắt đầu chuyển đổi",
+    "convertStop": "Ngừng chuyển đổi",
+    "newFormatNoSettingTip": "Vui lòng đặt định dạng đích cho tất cả âm thanh",
+
+    "unConvert": "Chuyển đổi",
+    "convertIng": "Đang chuyển đổi",
+    "convertSuccess": "Thành công",
+    "convertFail": "Thất bại",
+    "convertOver": "Hoàn thành chuyển đổi"
+  }
+}

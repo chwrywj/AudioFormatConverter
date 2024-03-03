@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "디지털 세계: 오디오 형식 변환",
+
+    "audioCut": "오디오 절단",
+    "audioMerge": "오디오 병합",
+    "audioCompress": "오디오 압축",
+    "audioFormatConversion": "오디오 형식 변환",
+    "videoToAudio": "비디오 오디오",
+    "language": "언어",
+    "support": "기술 지원",
+    "donata": "기부",
+
+    "addFileTip": "지원 형식:",
+    "addAudioBtn": "오디오 추가",
+    "addDirBtn": "폴더 추가",
+    "addDirTip": "선택한 폴더와 하위 폴더에 있는 모든 오디오 파일을 찾아냅니다.",
+    "clearFile": "비우기",
+
+    "sourcePath": "원래 경로",
+    "sourceSize": "원 크기",
+    "sourceBitRate": "원비트레이트",
+    "newPath": "새 경로",
+    "newSize": "새 크기",
+    "newBitRate": "새 비트레이트",
+    "status": "상태",
+
+    "audioTip1": "값이 클수록 오디오 품질이 향상되지만 크기도 커집니다.",
+    "taskThreadsNumber": "작업 스레드 수",
+    "taskThreadsNumberTip": "작업 스레드 수가 클수록 CUP 및 메모리가 더 많이 소모되므로 일반 컴퓨터는 1-3을 선택하는 것이 좋습니다.",
+    "audioBitrate": "오디오 비트레이트",
+    "useSourceBitrate": "소스 비트레이트 사용",
+    "customBitrate": "사용자 지정 비트레이트",
+    "customMaxBitrate": "최대 비트레이트 사용자 정의",
+    "customBitrateTip1": "소스 비트레이트는 설정하지 않을 때 사용됩니다.",
+    "customBitrateTip2": "오디오 기존 비트레이트가 설정된 비트레이트보다 작을 경우 오디오 기존 비트레이트 사용",
+    "audioSampleRate": "오디오 샘플링 속도",
+    "useSourceSampleRate": "소스 샘플링 속도 사용",
+    "audioChannel": "오디오 채널",
+    "useSourceChannel": "소스 채널 사용",
+    "mono": "1 채널 모노",
+    "stereo": "2 채널 스테레오",
+    "mustBeInt": "정수여야 합니다.",
+    "outDir": "오디오 출력 디렉토리",
+    "selectOutputDirTip": "출력 디렉토리를 선택하십시오.",
+    "selectTip": "선택하십시오.",
+
+    "tip": "힌트",
+    "ok": "확인",
+    "cancel": "취소",
+    "systemError": "프로그램 오류"
+  },
+
+  "audioFormatConvert": {
+    "tip": "오디오 형식 대량 변환",
+    "addFileTip": "다음 비디오 형식에서 음악을 추출할 수도 있습니다.",
+
+    "sourceFormat": "원래 형식",
+    "newFormat": "대상 형식",
+
+    "convertSetting": "변환 설정",
+    "batchSetNewFormat": "대량 대상 형식 설정",
+    "convertStart": "변환 시작",
+    "convertStop": "전환 중지",
+    "newFormatNoSettingTip": "모든 오디오에 대상 형식을 설정하십시오.",
+
+    "unConvert": "전환 대기 중",
+    "convertIng": "변환 중",
+    "convertSuccess": "성공",
+    "convertFail": "실패",
+    "convertOver": "변환 완료"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Digital World: Audio Format Conversion",
+
+    "audioCut": "Äänileikkaus",
+    "audioMerge": "Äänen yhdistäminen",
+    "audioCompress": "Äänen pakkaaminen",
+    "audioFormatConversion": "Äänimuodon muuntaminen",
+    "videoToAudio": "Videosta ääneen",
+    "language": "kieli",
+    "support": "tekninen tuki",
+    "donata": "lahjoitus",
+
+    "addFileTip": "Tuetut muodot:",
+    "addAudioBtn": "Lisää ääni",
+    "addDirBtn": "Lisää kansioita",
+    "addDirTip": "Löytää kaikki äänitiedostot valitusta kansiosta ja alikansioista",
+    "clearFile": "tyhjä",
+
+    "sourcePath": "Alkuperäinen polku",
+    "sourceSize": "Alkuperäinen koko",
+    "sourceBitRate": "Alkuperäinen bittinopeus",
+    "newPath": "Uusi polku",
+    "newSize": "Uusi koko",
+    "newBitRate": "Uusi bittinopeus",
+    "status": "tila",
+
+    "audioTip1": "Mitä suurempi arvo on, sitä parempi äänenlaatu, mutta myös suurempi äänenvoimakkuus",
+    "taskThreadsNumber": "Tehtäväketjujen lukumäärä",
+    "taskThreadsNumberTip": "Mitä suurempi tehtäväsäikeiden määrä on, sitä enemmän CUP ja muistia se kuluttaa.",
+    "audioBitrate": "Äänen bittinopeus",
+    "useSourceBitrate": "Käytä lähdebittinopeutta",
+    "customBitrate": "Mukautettu bittinopeus",
+    "customMaxBitrate": "Mukautettu enimmäisbittinopeus",
+    "customBitrateTip1": "Jos sitä ei ole asetettu, käytetään lähdebittinopeutta.",
+    "customBitrateTip2": "Jos alkuperäinen äänen bittinopeus on pienempi kuin asetettu bittinopeus, käytetään alkuperäistä äänen bittinopeutta",
+    "audioSampleRate": "Äänen näytteenottonopeus",
+    "useSourceSampleRate": "Käytä lähteen näytteenottonopeutta",
+    "audioChannel": "Äänikanava",
+    "useSourceChannel": "Lähdekanavan käyttö",
+    "mono": "1-kanavainen mono",
+    "stereo": "2-kanavainen stereo",
+    "mustBeInt": "Täytyy olla kokonaisluku",
+    "outDir": "Äänitietohakemisto",
+    "selectOutputDirTip": "Valitse lähtöhakemisto",
+    "selectTip": "Valitse",
+
+    "tip": "kehotte",
+    "ok": "Vahvista",
+    "cancel": "peruuta",
+    "systemError": "Ohjelmavirhe"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Erämuunna äänimuoto",
+    "addFileTip": "Voit myös poimia musiikkia seuraavista videomuodoista:",
+
+    "sourceFormat": "Alkuperäinen muoto",
+    "newFormat": "Kohdenmuoto",
+
+    "convertSetting": "Muuntoasetukset",
+    "batchSetNewFormat": "Erä Aseta kohdemuoto",
+    "convertStart": "Aloita muuntaminen",
+    "convertStop": "Pysäytä muuntaminen",
+    "newFormatNoSettingTip": "Aseta kohdemuoto kaikille äänille",
+
+    "unConvert": "Muunnettava",
+    "convertIng": "Muuntaminen",
+    "convertSuccess": "menestys",
+    "convertFail": "epäonnistuu",
+    "convertOver": "muuntamisen loppuun saattaminen"
+  }
+}

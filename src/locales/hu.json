@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Digitális világ: Audio Format Conversion",
+
+    "audioCut": "Hangkivágás",
+    "audioMerge": "Hangegyesítés",
+    "audioCompress": "Hangtömörítés",
+    "audioFormatConversion": "Hangformátum átalakítása",
+    "videoToAudio": "Videó hangba",
+    "language": "nyelv",
+    "support": "technikai támogatás",
+    "donata": "adományozás",
+
+    "addFileTip": "Támogatott formátumok:",
+    "addAudioBtn": "Hang hozzáadása",
+    "addDirBtn": "mappák hozzáadása",
+    "addDirTip": "Megtalálja az összes hangfájlt a kiválasztott mappában és almappában",
+    "clearFile": "üres",
+
+    "sourcePath": "Eredeti útvonal",
+    "sourceSize": "Eredeti méret",
+    "sourceBitRate": "Eredeti bitsebesség",
+    "newPath": "Új útvonal",
+    "newSize": "Új méret",
+    "newBitRate": "Új bitsebesség",
+    "status": "állapot",
+
+    "audioTip1": "Minél magasabb az érték, annál jobb a hangminőség, de annál nagyobb a hangerő",
+    "taskThreadsNumber": "A feladatszálak száma",
+    "taskThreadsNumberTip": "Minél nagyobb a feladatszálak száma, annál több CUP-t és memóriát fogyaszt el.",
+    "audioBitrate": "Hangbitráta",
+    "useSourceBitrate": "Forrásbitsebesség használata",
+    "customBitrate": "Egyéni bitsebesség",
+    "customMaxBitrate": "Egyéni maximális bitsebesség",
+    "customBitrateTip1": "Ha nincs beállítva, a forrás bitsebességét használjuk.",
+    "customBitrateTip2": "Ha az eredeti audio bitsebesség kisebb, mint a beállított bitsebesség, az eredeti audio bitsebesség lesz használva",
+    "audioSampleRate": "Hangmintavételi sebesség",
+    "useSourceSampleRate": "Forrásmintavételi sebesség használata",
+    "audioChannel": "Hangcsatorna",
+    "useSourceChannel": "A forráscsatorna használata",
+    "mono": "1 csatornás mono",
+    "stereo": "2 csatornás sztereó",
+    "mustBeInt": "Egész számnak kell lennie.",
+    "outDir": "Hangkimeneti könyvtár",
+    "selectOutputDirTip": "Válasszon ki egy kimeneti könyvtárat",
+    "selectTip": "Válassza ki",
+
+    "tip": "prompt",
+    "ok": "megerősítés",
+    "cancel": "törlés",
+    "systemError": "Programhiba"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Hangformátum kötegelt átalakítása",
+    "addFileTip": "A következő videoformátumokból is kivonhatja a zenét:",
+
+    "sourceFormat": "Eredeti formátum",
+    "newFormat": "Célformátum",
+
+    "convertSetting": "Konverziós beállítások",
+    "batchSetNewFormat": "Tételkészlet célformátum",
+    "convertStart": "Átalakítás indítása",
+    "convertStop": "Átalakítás leállítása",
+    "newFormatNoSettingTip": "Kérjük, állítsa be az összes hang célformátumát",
+
+    "unConvert": "Átalakítandó",
+    "convertIng": "Átalakítás",
+    "convertSuccess": "siker",
+    "convertFail": "sikertelen",
+    "convertOver": "átalakítás befejezése"
+  }
+}

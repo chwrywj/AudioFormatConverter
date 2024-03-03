@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Digitale Welt: Audio Format Konvertierung",
+
+    "audioCut": "Audioausschnitt",
+    "audioMerge": "Audio zusammenführen",
+    "audioCompress": "Audiokomprimierung",
+    "audioFormatConversion": "Konvertierung des Audioformats",
+    "videoToAudio": "Video zu Audio",
+    "language": "Sprache",
+    "support": "technische Unterstützung",
+    "donata": "Spende",
+
+    "addFileTip": "Unterstützte Formate:",
+    "addAudioBtn": "Audio hinzufügen",
+    "addDirBtn": "Ordner hinzufügen",
+    "addDirTip": "Findet alle Audiodateien im ausgewählten Ordner und Unterordner",
+    "clearFile": "leer",
+
+    "sourcePath": "Ursprünglicher Pfad",
+    "sourceSize": "Originalgröße",
+    "sourceBitRate": "Original-Bitrate",
+    "newPath": "Neuer Pfad",
+    "newSize": "Neue Größe",
+    "newBitRate": "Neue Bitrate",
+    "status": "Zustand",
+
+    "audioTip1": "Je höher der Wert, desto besser die Audioqualität, aber auch desto größer die Lautstärke",
+    "taskThreadsNumber": "Anzahl der Task Threads",
+    "taskThreadsNumberTip": "Je größer die Anzahl der Task Threads, desto mehr CUP und Arbeitsspeicher wird verbraucht.",
+    "audioBitrate": "Audio-Bitrate",
+    "useSourceBitrate": "Quell-Bitrate verwenden",
+    "customBitrate": "Benutzerdefinierte Bitrate",
+    "customMaxBitrate": "Benutzerdefinierte maximale Bitrate",
+    "customBitrateTip1": "Wenn nicht eingestellt, wird die Quellbitrate verwendet.",
+    "customBitrateTip2": "Wenn die ursprüngliche Audio-Bitrate kleiner als die eingestellte Bitrate ist, wird die ursprüngliche Audio-Bitrate verwendet",
+    "audioSampleRate": "Audio-Abtastrate",
+    "useSourceSampleRate": "Quellentnahmerate verwenden",
+    "audioChannel": "Audiokanal",
+    "useSourceChannel": "Verwendung des Quellkanals",
+    "mono": "1-Kanal Mono",
+    "stereo": "2-Kanal Stereo",
+    "mustBeInt": "Muss eine ganze Zahl sein",
+    "outDir": "Audioausgabeverzeichnis",
+    "selectOutputDirTip": "Bitte wählen Sie ein Ausgabeverzeichnis aus",
+    "selectTip": "Bitte wählen",
+
+    "tip": "prompt",
+    "ok": "bestätigen",
+    "cancel": "Abbrechen",
+    "systemError": "Programmfehler"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Stapelkonvertierung von Audioformat",
+    "addFileTip": "Sie können auch Musik aus den folgenden Videoformaten extrahieren:",
+
+    "sourceFormat": "Originalformat",
+    "newFormat": "Zielformat",
+
+    "convertSetting": "Konvertierungseinstellungen",
+    "batchSetNewFormat": "Stapel-Zielformat festlegen",
+    "convertStart": "Konvertierung starten",
+    "convertStop": "Konvertierung stoppen",
+    "newFormatNoSettingTip": "Bitte legen Sie das Zielformat für alle Audiodateien fest",
+
+    "unConvert": "Zu konvertieren",
+    "convertIng": "Umwandlung",
+    "convertSuccess": "Erfolg",
+    "convertFail": "fehlschlagen",
+    "convertOver": "Umwandlung abgeschlossen"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Digitale wereld: conversie van audioformaten",
+
+    "audioCut": "Audio knippen",
+    "audioMerge": "Audio samenvoegen",
+    "audioCompress": "Audiocompressie",
+    "audioFormatConversion": "Conversie van audioformaat",
+    "videoToAudio": "Video naar audio",
+    "language": "taal",
+    "support": "technische ondersteuning",
+    "donata": "donatie",
+
+    "addFileTip": "Ondersteunde formaten:",
+    "addAudioBtn": "Audio toevoegen",
+    "addDirBtn": "mappen toevoegen",
+    "addDirTip": "Vindt alle audiobestanden in de geselecteerde map en submappen",
+    "clearFile": "leeg",
+
+    "sourcePath": "Oorspronkelijk pad",
+    "sourceSize": "Oorspronkelijke grootte",
+    "sourceBitRate": "Oorspronkelijke bitsnelheid",
+    "newPath": "Nieuw pad",
+    "newSize": "Nieuwe grootte",
+    "newBitRate": "Nieuwe bitsnelheid",
+    "status": "staat",
+
+    "audioTip1": "Hoe hoger de waarde, hoe beter de geluidskwaliteit, maar ook hoe groter het volume",
+    "taskThreadsNumber": "Aantal taakdraden",
+    "taskThreadsNumberTip": "Hoe groter het aantal taakdraden, hoe meer CUP en geheugen het verbruikt.",
+    "audioBitrate": "Audio bitrate",
+    "useSourceBitrate": "Bronbitsnelheid gebruiken",
+    "customBitrate": "Aangepaste bitsnelheid",
+    "customMaxBitrate": "Aangepaste maximale bitsnelheid",
+    "customBitrateTip1": "Wanneer niet ingesteld, wordt de bronbitsnelheid gebruikt.",
+    "customBitrateTip2": "Als de oorspronkelijke audiobitsnelheid kleiner is dan de ingestelde bitsnelheid, wordt de oorspronkelijke audiobitsnelheid gebruikt",
+    "audioSampleRate": "Audio sampling rate",
+    "useSourceSampleRate": "Bronbemonsteringssnelheid gebruiken",
+    "audioChannel": "Audiokanaal",
+    "useSourceChannel": "Het bronkanaal gebruiken",
+    "mono": "1-kanaals mono",
+    "stereo": "2-kanaals stereo",
+    "mustBeInt": "Moet een geheel getal zijn",
+    "outDir": "Audiouitvoermap",
+    "selectOutputDirTip": "Selecteer een uitvoermap",
+    "selectTip": "Selecteer",
+
+    "tip": "prompt",
+    "ok": "bevestigen",
+    "cancel": "annuleren",
+    "systemError": "Programmafout"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Batch audio-indeling converteren",
+    "addFileTip": "U kunt ook muziek uit de volgende videoformaten extraheren:",
+
+    "sourceFormat": "Origineel formaat",
+    "newFormat": "Doelformaat",
+
+    "convertSetting": "Conversie-instellingen",
+    "batchSetNewFormat": "Doelformaat batch instellen",
+    "convertStart": "Conversie starten",
+    "convertStop": "Conversie stoppen",
+    "newFormatNoSettingTip": "Stel het doelformaat in voor alle audio",
+
+    "unConvert": "Te converteren",
+    "convertIng": "Omzetting",
+    "convertSuccess": "succes",
+    "convertFail": "mislukken",
+    "convertOver": "conversie voltooiing"
+  }
+}

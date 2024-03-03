@@ -1,0 +1,73 @@
+{
+  "common": {
+    "title": "Digital World: Audio Format Conversion",
+
+    "audioCut": "Audio clipping",
+    "audioMerge": "Audio Merge",
+    "audioCompress": "Audio compression",
+    "audioFormatConversion": "Audio format conversion",
+    "videoToAudio": "Video to audio",
+    "language": "Language",
+    "support": "Technical support",
+    "donata": "Donation",
+
+    "addFileTip": "Supported formats:",
+    "addAudioBtn": "Add Audio",
+    "addDirBtn": "Add folders",
+    "addDirTip": "Will find all audio files in the selected folder and subfolders",
+    "clearFile": "Clear",
+
+    "sourcePath": "Original path",
+    "sourceSize": "Original size",
+    "sourceBitRate": "Original bit rate",
+    "newPath": "New Path",
+    "newSize": "New size",
+    "newBitRate": "New bit rate",
+    "status": "State",
+
+    "audioTip1": "The higher the value, the better the audio quality, but also the larger the volume",
+    "taskThreadsNumber": "Number of task threads",
+    "taskThreadsNumberTip": "The larger the number of task threads, the more CUP and memory it consumes. It is recommended to choose 1-3 for regular computers",
+    "audioBitrate": "Audio Bitrate",
+    "useSourceBitrate": "Use source bit rate",
+    "customBitrate": "Custom bit rate",
+    "customMaxBitrate": "Custom maximum bit rate",
+    "customBitrateTip1": "When not set, the source bit rate will be used.",
+    "customBitrateTip2": "If the original audio bit rate is less than the set bit rate, the original audio bit rate will be used",
+    "audioSampleRate": "Audio sampling rate",
+    "useSourceSampleRate": "Use source sampling rate",
+    "audioChannel": "Audio Channel",
+    "useSourceChannel": "Using the source channel",
+    "mono": "1-channel mono",
+    "stereo": "2-channel stereo",
+    "mustBeInt": "Must be an integer",
+    "outDir": "Audio output directory",
+    "selectOutputDirTip": "Please select an output directory",
+    "selectTip": "Please select",
+
+    "tip": "Prompt",
+    "ok": "Confirm",
+    "cancel": "Cancel",
+    "systemError": "Program error"
+  },
+
+  "audioFormatConvert": {
+    "tip": "Batch Convert Audio Format",
+    "addFileTip": "You can also extract music from the following video formats:",
+
+    "sourceFormat": "Original format",
+    "newFormat": "Target Format",
+
+    "convertSetting": "Conversion Settings",
+    "batchSetNewFormat": "Batch Set Target Format",
+    "convertStart": "Start conversion",
+    "convertStop": "Stop conversion",
+    "newFormatNoSettingTip": "Please set the target format for all audio",
+
+    "unConvert": "To be converted",
+    "convertIng": "Converting",
+    "convertSuccess": "Success",
+    "convertFail": "Fail",
+    "convertOver": "Conversion completion"
+  }
+}
